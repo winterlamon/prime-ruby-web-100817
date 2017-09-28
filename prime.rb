@@ -3,7 +3,7 @@ def prime?(integer)
     integer_arr.each do |i|
       if integer % i == 0
         false
-      else 
+      else
         true
       end
   end
