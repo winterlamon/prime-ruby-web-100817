@@ -1,6 +1,6 @@
 def prime?(num)
   array_start = 2
-  num_array = [array_start...num]
+  num_array = *(array_start...num)
 
   if num < 2
     return false
