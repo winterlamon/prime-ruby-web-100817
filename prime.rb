@@ -1,7 +1,7 @@
 def prime?(num)
   if num < 2
     return false
-  num_array = [*...num]
+  num_array = [2...num]
     for n in num_array
       if num % i == 0
         false
