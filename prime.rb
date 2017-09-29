@@ -1,13 +1,13 @@
 def prime?(num)
-  array_start = 2
-  num_array = *(array_start...num)
+  range_start = 2
+  num_array = *(range_start...num)
 
-  if num < 2
-    return false
-  end
+#  if num < 2
+#    return false
+#  end
 
   num_array.each do |n|
-    if num % n == 0
+    if num % n == 0 || num < 2
       return false
     else
       return true
